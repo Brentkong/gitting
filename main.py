@@ -1,5 +1,11 @@
+import random
+
+a = random.randrange(69,420)
+print(a)
+
 print("hello aicamo")
 print("git add, git commit, git push")
+
 
 def is_even(num):
     return num % 2 == 0

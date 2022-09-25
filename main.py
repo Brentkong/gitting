@@ -7,6 +7,10 @@ def is_even(num):
 def is_odd(num):
     return not is_even(num)
 
+def poop(num):
+    print("poop")
+    return num 
+
 print(is_odd(2))
     
 print(is_even(2))

@@ -6,7 +6,7 @@ def is_even(num):
 
 def is_odd(num):
     return not is_even(num)
-
+#peepeepoopoo
 def poop(num):
     print("poop")
     return num 
@@ -14,3 +14,5 @@ def poop(num):
 print(is_odd(2))
     
 print(is_even(2))
+
+print("peepeepoopoo")

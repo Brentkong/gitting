@@ -1,5 +1,9 @@
 import random
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
+SECRET = os.getenv('SECRET')
 a = random.randrange(69,420)
 print(a)
 
@@ -20,3 +24,5 @@ def poop(num):
 print(is_odd(2))
     
 print(is_even(2))
+
+print(SECRET)
